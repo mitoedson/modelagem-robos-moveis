@@ -1,0 +1,110 @@
+{
+  "circular": {
+    "deformada": [
+      0.126,
+      0.333
+    ],
+    "lado_fixo": [
+      0.182,
+      0.64
+    ],
+    "tolerancia_0p1": [
+      0.134,
+      0.368
+    ],
+    "min_h_deformada": 0.03,
+    "min_h_lado_fixo": 0.0,
+    "obstaculo_longe": {
+      "sem_guarda": [
+        0.185,
+        0.65
+      ],
+      "com_guarda": [
+        0.002,
+        0.005
+      ]
+    }
+  },
+  "psc": {
+    "10000": {
+      "saltos_w": 520,
+      "w_saturado_pct": 5.1,
+      "v_negativo_pct": 2.0,
+      "erro_rms_ponto_movel": 0.326
+    },
+    "3000": {
+      "saltos_w": 8,
+      "w_saturado_pct": 1.2,
+      "v_negativo_pct": 0.0,
+      "erro_rms_ponto_movel": 0.325
+    },
+    "1000": {
+      "saltos_w": 12,
+      "w_saturado_pct": 1.1,
+      "v_negativo_pct": 0.0,
+      "erro_rms_ponto_movel": 0.324
+    },
+    "300": {
+      "saltos_w": 5,
+      "w_saturado_pct": 1.1,
+      "v_negativo_pct": 0.0,
+      "erro_rms_ponto_movel": 0.324
+    },
+    "100": {
+      "saltos_w": 5,
+      "w_saturado_pct": 0.8,
+      "v_negativo_pct": 0.0,
+      "erro_rms_ponto_movel": 0.329
+    }
+  },
+  "reta": {
+    "A_vies": [
+      0.097,
+      0.377
+    ],
+    "A_deformada": [
+      0.095,
+      0.35
+    ],
+    "B_vies": [
+      0.136,
+      0.377
+    ],
+    "B_deformada": [
+      0.132,
+      0.351
+    ],
+    "min_h_A_deformada": 0.039
+  },
+  "ponto_poses_(3,4)": {
+    "(0, 0), θ = 1 rad": {
+      "erro_pos_cm": 0.49,
+      "erro_ori_rad": 0.0,
+      "saltos_w": 0,
+      "min_h": 0.006
+    },
+    "(0, 0), θ = π (de costas)": {
+      "erro_pos_cm": 0.5,
+      "erro_ori_rad": 0.0,
+      "saltos_w": 0,
+      "min_h": 0.016
+    },
+    "(5, 0), θ = π/2": {
+      "erro_pos_cm": 0.49,
+      "erro_ori_rad": 0.0,
+      "saltos_w": 0,
+      "min_h": 0.129
+    },
+    "(0, 5), θ = −1 rad": {
+      "erro_pos_cm": 0.49,
+      "erro_ori_rad": 0.0,
+      "saltos_w": 0,
+      "min_h": 0.832
+    }
+  },
+  "ponto_INIT_(5,5)": {
+    "erro_pos_cm": 0.49,
+    "erro_ori_rad": 0.0,
+    "min_h": 0.005
+  }
+}

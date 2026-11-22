@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite-o como abaixo."
+title: "Modelagem de Robôs Móveis e Sistema de Segurança com Funções Barreira de Controle"
+type: software
+authors:
+  - family-names: "Mito"
+    given-names: "Edson Sadao"
+    affiliation: "Universidade Federal do ABC"
+license: MIT
+date-released: 2026-11-21
+keywords:
+  - robô móvel diferencial
+  - função barreira de controle
+  - função de Lyapunov de controle
+  - programação quadrática
+  - desvio de obstáculos

@@ -1,0 +1,19 @@
+# MATLAB / Simulink
+*.slxc
+slprj/
+*.asv
+*.autosave
+*.m~
+*.mex*
+*.mat
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Sistema
+.DS_Store
+Thumbs.db
